@@ -1,0 +1,19 @@
+{
+  "name": "break-brick",
+  "version": "1.0.0",
+  "description": "课程实验3",
+  "main": "src/game.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "phaser": "^3.55.2",
+    "vite": "^3.0.7"
+  }
+}
